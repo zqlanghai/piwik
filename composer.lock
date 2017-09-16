@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "39dbe45e9a9ada455d5b38be7e6f5fad",
+    "content-hash": "f1bf5676302f1d1cdb2b8c6677e33197",
     "packages": [
         {
             "name": "composer/semver",
@@ -98,6 +98,55 @@
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
             "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "davaxi/sparkline",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davaxi/Sparkline.git",
+                "reference": "883a3dd118b0f54bbdd8132892050bee057f2382"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davaxi/Sparkline/zipball/883a3dd118b0f54bbdd8132892050bee057f2382",
+                "reference": "883a3dd118b0f54bbdd8132892050bee057f2382",
+                "shasum": ""
+            },
+            "require": {
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "codeclimate/php-test-reporter": "dev-master",
+                "ext-gd": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Davaxi\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Patiashvili",
+                    "email": "stratagem.david@gmail.com",
+                    "homepage": "https://www.patiashvili.fr/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "PHP Class (using GD) to generate sparklines",
+            "keywords": [
+                "php",
+                "picture",
+                "sparkline"
+            ],
+            "time": "2017-09-08T11:25:50+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -1630,7 +1679,7 @@
                 "performance",
                 "profiling"
             ],
-            "time": "2015-02-26 14:37:51"
+            "time": "2015-02-26T14:37:51+00:00"
         },
         {
             "name": "guzzle/guzzle",
