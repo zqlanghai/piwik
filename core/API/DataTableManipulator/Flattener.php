@@ -68,8 +68,9 @@ class Flattener extends DataTableManipulator
         $dataTable->filter('ReplaceSummaryRowLabel');
         $dataTable->filter('ReplaceColumnNames');
 
-        $report = ReportsProvider::factory($this->apiModule, $this->apiMethod);
-        $dimensionName = $report->getDimension()->getId();
+        $report        = ReportsProvider::factory($this->apiModule, $this->apiMethod);
+        $dimension     = $report->getDimension();
+        $dimensionName = $dimension ? $dimension->getId() : 'label1';
 
         $this->flattenDataTableInto($dataTable, $newDataTable, $dimensionName);
 
@@ -100,7 +101,7 @@ class Flattener extends DataTableManipulator
     {
         $origLabel = $label = $row->getColumn('label');
 
-        $row->addColumn($dimensionName, $origLabel);
+        $row->setColumn($dimensionName, $origLabel);
 
         if ($label !== false) {
             $label = trim($label);
@@ -147,11 +148,12 @@ class Flattener extends DataTableManipulator
             }
             $prefix = $label . $this->recursiveLabelSeparator;
 
-            $report = ReportsProvider::factory($this->apiModule, $this->getApiMethodForSubtable($this->request));
-            $subDimensionName = $report->getDimension()->getId();
+            $report           = ReportsProvider::factory($this->apiModule, $this->getApiMethodForSubtable($this->request));
+            $subDimension     = $report->getDimension();
+            $subDimensionName = $subDimension ? $subDimension->getId() : 'label' . (substr_count($prefix, $this->recursiveLabelSeparator) + 1);
 
             foreach ($subTable->getRows() as $subRow) {
-                $subRow->addColumn($dimensionName, $origLabel);
+                $subRow->setColumn($dimensionName, $origLabel);
             }
 
             $this->flattenDataTableInto($subTable, $dataTable, $subDimensionName, $prefix, $logo);
