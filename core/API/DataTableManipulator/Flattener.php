@@ -70,7 +70,7 @@ class Flattener extends DataTableManipulator
 
         $report        = ReportsProvider::factory($this->apiModule, $this->apiMethod);
         $dimension     = $report->getDimension();
-        $dimensionName = $dimension ? $dimension->getId() : 'label1';
+        $dimensionName = $dimension ? str_replace('.', '_', $dimension->getId()) : 'label1';
 
         $this->flattenDataTableInto($dataTable, $newDataTable, $dimensionName);
 
@@ -101,8 +101,6 @@ class Flattener extends DataTableManipulator
     {
         $origLabel = $label = $row->getColumn('label');
 
-        $row->setColumn($dimensionName, $origLabel);
-
         if ($label !== false) {
             $label = trim($label);
 
@@ -114,8 +112,16 @@ class Flattener extends DataTableManipulator
                 }
             }
 
+            $origLabel = $label;
+
             $label = $labelPrefix . $label;
             $row->setColumn('label', $label);
+
+            if ($row->hasColumn($dimensionName)) {
+                $origLabel = $row->getColumn($dimensionName) . $this->recursiveLabelSeparator . $origLabel;
+            }
+
+            $row->setColumn($dimensionName, $origLabel);
         }
 
         $logo = $row->getMetadata('logo');
@@ -150,10 +156,12 @@ class Flattener extends DataTableManipulator
 
             $report           = ReportsProvider::factory($this->apiModule, $this->getApiMethodForSubtable($this->request));
             $subDimension     = $report->getDimension();
-            $subDimensionName = $subDimension ? $subDimension->getId() : 'label' . (substr_count($prefix, $this->recursiveLabelSeparator) + 1);
+            $subDimensionName = $subDimension ? str_replace('.', '_', $subDimension->getId()) : 'label' . (substr_count($prefix, $this->recursiveLabelSeparator) + 1);
 
-            foreach ($subTable->getRows() as $subRow) {
-                $subRow->setColumn($dimensionName, $origLabel);
+            if ($origLabel !== false) {
+                foreach ($subTable->getRows() as $subRow) {
+                    $subRow->setColumn($dimensionName, $origLabel);
+                }
             }
 
             $this->flattenDataTableInto($subTable, $dataTable, $subDimensionName, $prefix, $logo);
