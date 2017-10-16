@@ -14,6 +14,7 @@
 		<entry_sum_visit_length>0</entry_sum_visit_length>
 		<entry_bounce_count>19</entry_bounce_count>
 		<exit_nb_visits>19</exit_nb_visits>
+		<Actions_PageTitle>Others</Actions_PageTitle>
 		<avg_bandwidth>0</avg_bandwidth>
 		<avg_time_on_page>0</avg_time_on_page>
 		<bounce_rate>100%</bounce_rate>
@@ -33,6 +34,7 @@
 		<entry_sum_visit_length>0</entry_sum_visit_length>
 		<entry_bounce_count>3</entry_bounce_count>
 		<exit_nb_visits>3</exit_nb_visits>
+		<Actions_PageTitle>title_0/ - Others</Actions_PageTitle>
 		<avg_bandwidth>0</avg_bandwidth>
 		<avg_time_on_page>0</avg_time_on_page>
 		<bounce_rate>100%</bounce_rate>
@@ -55,6 +57,7 @@
 		<entry_bounce_count>1</entry_bounce_count>
 		<exit_nb_uniq_visitors>1</exit_nb_uniq_visitors>
 		<exit_nb_visits>1</exit_nb_visits>
+		<Actions_PageTitle>title_0</Actions_PageTitle>
 		<avg_bandwidth>0</avg_bandwidth>
 		<avg_time_on_page>0</avg_time_on_page>
 		<bounce_rate>100%</bounce_rate>
@@ -77,6 +80,7 @@
 		<entry_bounce_count>1</entry_bounce_count>
 		<exit_nb_uniq_visitors>1</exit_nb_uniq_visitors>
 		<exit_nb_visits>1</exit_nb_visits>
+		<Actions_PageTitle>title_0/title_0</Actions_PageTitle>
 		<avg_bandwidth>0</avg_bandwidth>
 		<avg_time_on_page>0</avg_time_on_page>
 		<bounce_rate>100%</bounce_rate>
@@ -99,6 +103,7 @@
 		<entry_bounce_count>1</entry_bounce_count>
 		<exit_nb_uniq_visitors>1</exit_nb_uniq_visitors>
 		<exit_nb_visits>1</exit_nb_visits>
+		<Actions_PageTitle>title_1</Actions_PageTitle>
 		<avg_bandwidth>0</avg_bandwidth>
 		<avg_time_on_page>0</avg_time_on_page>
 		<bounce_rate>100%</bounce_rate>

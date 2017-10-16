@@ -10,6 +10,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer1.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page1.html</Referrers_WebsitePage>
 		<url>http://www.referrer1.com/sub/dir/page1.html</url>
 	</row>
 	<row>
@@ -22,6 +24,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer1.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page2.html</Referrers_WebsitePage>
 		<url>http://www.referrer1.com/sub/dir/page2.html</url>
 	</row>
 	<row>
@@ -34,6 +38,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer2.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page1.html</Referrers_WebsitePage>
 		<url>http://www.referrer2.com/sub/dir/page1.html</url>
 	</row>
 	<row>
@@ -46,6 +52,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer2.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page2.html</Referrers_WebsitePage>
 		<url>http://www.referrer2.com/sub/dir/page2.html</url>
 	</row>
 	<row>
@@ -58,6 +66,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer3.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page1.html</Referrers_WebsitePage>
 		<url>http://www.referrer3.com/sub/dir/page1.html</url>
 	</row>
 	<row>
@@ -70,6 +80,8 @@
 		<sum_visit_length>1</sum_visit_length>
 		<bounce_count>0</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<Referrers_Website>www.referrer3.com</Referrers_Website>
+		<Referrers_WebsitePage>sub/dir/page2.html</Referrers_WebsitePage>
 		<url>http://www.referrer3.com/sub/dir/page2.html</url>
 	</row>
 </result>

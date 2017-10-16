@@ -9,6 +9,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>Others</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -20,6 +21,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite5.com/ - Others</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -31,6 +33,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite6.com/ - Others</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -42,6 +45,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite7.com/ - Others</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -54,6 +58,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite5.com/20/download</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://cloudsite5.com/20/download</url>
 		<segment>downloadUrl==http%3A%2F%2Fcloudsite5.com%2F20%2Fdownload</segment>
@@ -68,6 +73,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite6.com/24/download</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://cloudsite6.com/24/download</url>
 		<segment>downloadUrl==http%3A%2F%2Fcloudsite6.com%2F24%2Fdownload</segment>
@@ -82,6 +88,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_DownloadUrl>cloudsite7.com/28/download</Actions_DownloadUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://cloudsite7.com/28/download</url>
 		<segment>downloadUrl==http%3A%2F%2Fcloudsite7.com%2F28%2Fdownload</segment>

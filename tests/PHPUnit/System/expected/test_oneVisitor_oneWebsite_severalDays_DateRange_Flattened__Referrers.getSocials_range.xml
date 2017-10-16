@@ -10,6 +10,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Facebook</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>facebook.com/whatever</Referrers_WebsitePage>
 		<url>http://facebook.com/whatever</url>
 		<logo>plugins/Morpheus/icons/dist/socials/facebook.com.png</logo>
 	</row>
@@ -23,6 +25,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Facebook</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>fb.me/?q=sdlfjs&amp;n=slfjsd</Referrers_WebsitePage>
 		<url>http://fb.me/?q=sdlfjs&amp;n=slfjsd</url>
 		<logo>plugins/Morpheus/icons/dist/socials/facebook.com.png</logo>
 	</row>
@@ -36,6 +40,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Facebook</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>www.facebook.com/another/path</Referrers_WebsitePage>
 		<url>http://www.facebook.com/another/path</url>
 		<logo>plugins/Morpheus/icons/dist/socials/facebook.com.png</logo>
 	</row>
@@ -49,6 +55,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Flickr</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>www.flickr.com</Referrers_WebsitePage>
 		<url>http://www.flickr.com</url>
 		<logo>plugins/Morpheus/icons/dist/socials/flickr.com.png</logo>
 	</row>
@@ -62,6 +70,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Mixi</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>mixi.jp</Referrers_WebsitePage>
 		<url>http://mixi.jp</url>
 		<logo>plugins/Morpheus/icons/dist/socials/mixi.jp.png</logo>
 	</row>
@@ -75,6 +85,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Skyrock</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>skyrock.com</Referrers_WebsitePage>
 		<url>http://skyrock.com</url>
 		<logo>plugins/Morpheus/icons/dist/socials/skyrock.com.png</logo>
 	</row>
@@ -88,6 +100,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Twitter</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>t.co/id/?y=dsfs</Referrers_WebsitePage>
 		<url>http://t.co/id/?y=dsfs</url>
 		<logo>plugins/Morpheus/icons/dist/socials/twitter.com.png</logo>
 	</row>
@@ -101,6 +115,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Twitter</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>twitter.com/whatever2</Referrers_WebsitePage>
 		<url>http://twitter.com/whatever2</url>
 		<logo>plugins/Morpheus/icons/dist/socials/twitter.com.png</logo>
 	</row>
@@ -114,6 +130,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Twitter</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>www.twitter.com/index?a=2334</Referrers_WebsitePage>
 		<url>http://www.twitter.com/index?a=2334</url>
 		<logo>plugins/Morpheus/icons/dist/socials/twitter.com.png</logo>
 	</row>
@@ -127,6 +145,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>1</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SocialNetwork>Xanga</Referrers_SocialNetwork>
+		<Referrers_WebsitePage>xanga.com</Referrers_WebsitePage>
 		<url>http://xanga.com</url>
 		<logo>plugins/Morpheus/icons/dist/socials/xanga.com.png</logo>
 	</row>

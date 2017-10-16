@@ -10,6 +10,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>45</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_BrowserVersion>Others</DevicesDetection_BrowserVersion>
 		<logo>plugins/Morpheus/icons/dist/browsers/UNK.png</logo>
 	</row>
 	<row>
@@ -22,6 +23,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>15</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_BrowserVersion>Firefox 6.0</DevicesDetection_BrowserVersion>
 		<segment>browserCode==FF;browserVersion==6.0</segment>
 		<logo>plugins/Morpheus/icons/dist/browsers/FF.png</logo>
 	</row>
@@ -35,6 +37,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>15</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_BrowserVersion>Internet Explorer 9.0</DevicesDetection_BrowserVersion>
 		<segment>browserCode==IE;browserVersion==9.0</segment>
 		<logo>plugins/Morpheus/icons/dist/browsers/IE.png</logo>
 	</row>

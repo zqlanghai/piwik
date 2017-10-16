@@ -9,6 +9,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>Others</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -20,6 +21,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite10.com/ - Others</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -31,6 +33,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite11.com/ - Others</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -42,6 +45,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite12.com/ - Others</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 	</row>
 	<row>
@@ -54,6 +58,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite10.com/</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://othersite10.com/</url>
 		<segment>outlinkUrl==http%3A%2F%2Fothersite10.com%2F</segment>
@@ -68,6 +73,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite11.com/</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://othersite11.com/</url>
 		<segment>outlinkUrl==http%3A%2F%2Fothersite11.com%2F</segment>
@@ -82,6 +88,7 @@
 		<nb_hits_with_bandwidth>0</nb_hits_with_bandwidth>
 		<min_bandwidth />
 		<max_bandwidth />
+		<Actions_ClickedUrl>othersite12.com/</Actions_ClickedUrl>
 		<avg_bandwidth>0</avg_bandwidth>
 		<url>http://othersite12.com/</url>
 		<segment>outlinkUrl==http%3A%2F%2Fothersite12.com%2F</segment>

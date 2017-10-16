@@ -10,6 +10,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>9</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SearchEngine>Google</Referrers_SearchEngine>
+		<Referrers_Keyword>free &gt; proprietary</Referrers_Keyword>
 		<url>http://google.com/search?q=free+%3E+proprietary</url>
 		<logo>plugins/Morpheus/icons/dist/searchEngines/google.com.png</logo>
 	</row>
@@ -23,6 +25,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>8</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SearchEngine>Google</Referrers_SearchEngine>
+		<Referrers_Keyword>justice )(&amp;^#%$ not '&quot; corruption!</Referrers_Keyword>
 		<url>http://google.com/search?q=justice+%29%28%26%5E%23%25%24+not+%27%22+corruption%21</url>
 		<logo>plugins/Morpheus/icons/dist/searchEngines/google.com.png</logo>
 	</row>
@@ -36,6 +40,8 @@
 		<nb_visits_converted>0</nb_visits_converted>
 		<sum_daily_nb_uniq_visitors>8</sum_daily_nb_uniq_visitors>
 		<sum_daily_nb_users>0</sum_daily_nb_users>
+		<Referrers_SearchEngine>Google</Referrers_SearchEngine>
+		<Referrers_Keyword>peace &quot;,&quot; not war</Referrers_Keyword>
 		<url>http://google.com/search?q=peace+%22%2C%22+not+war</url>
 		<logo>plugins/Morpheus/icons/dist/searchEngines/google.com.png</logo>
 	</row>

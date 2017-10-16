@@ -10,6 +10,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>40</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_OsVersion>Others</DevicesDetection_OsVersion>
 		<logo>plugins/Morpheus/icons/dist/os/UNK.png</logo>
 	</row>
 	<row>
@@ -22,6 +23,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>20</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_OsVersion>GNU/Linux</DevicesDetection_OsVersion>
 		<segment>operatingSystemCode==LIN;operatingSystemVersion==</segment>
 		<logo>plugins/Morpheus/icons/dist/os/LIN.png</logo>
 	</row>
@@ -35,6 +37,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>15</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<DevicesDetection_OsVersion>Android 4.0</DevicesDetection_OsVersion>
 		<segment>operatingSystemCode==AND;operatingSystemVersion==4.0</segment>
 		<logo>plugins/Morpheus/icons/dist/os/AND.png</logo>
 	</row>

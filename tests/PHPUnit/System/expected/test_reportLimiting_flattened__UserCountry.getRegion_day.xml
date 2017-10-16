@@ -10,6 +10,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>35</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<UserCountry_Region>Others</UserCountry_Region>
 		<logo>plugins/Morpheus/icons/dist/flags/xx.png</logo>
 	</row>
 	<row>
@@ -22,6 +23,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>20</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<UserCountry_Region>Provence-Alpes-Cote d'Azur, France</UserCountry_Region>
 		<segment>regionCode==B8;countryCode==fr</segment>
 		<region>B8</region>
 		<country>fr</country>
@@ -39,6 +41,7 @@
 		<sum_visit_length>0</sum_visit_length>
 		<bounce_count>20</bounce_count>
 		<nb_visits_converted>0</nb_visits_converted>
+		<UserCountry_Region>Victoria, Australia</UserCountry_Region>
 		<segment>regionCode==07;countryCode==au</segment>
 		<region>07</region>
 		<country>au</country>
