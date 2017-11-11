@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f1bf5676302f1d1cdb2b8c6677e33197",
+    "content-hash": "5fc8f3af0092ebfc25d4c17019ce8bab",
     "packages": [
         {
             "name": "composer/semver",
@@ -101,16 +101,16 @@
         },
         {
             "name": "davaxi/sparkline",
-            "version": "1.0.4",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/davaxi/Sparkline.git",
-                "reference": "883a3dd118b0f54bbdd8132892050bee057f2382"
+                "url": "https://github.com/Findus23/Sparkline.git",
+                "reference": "ff9fb8b66e3d128b9e622433c7eba2a82f877d86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/davaxi/Sparkline/zipball/883a3dd118b0f54bbdd8132892050bee057f2382",
-                "reference": "883a3dd118b0f54bbdd8132892050bee057f2382",
+                "url": "https://api.github.com/repos/Findus23/Sparkline/zipball/ff9fb8b66e3d128b9e622433c7eba2a82f877d86",
+                "reference": "ff9fb8b66e3d128b9e622433c7eba2a82f877d86",
                 "shasum": ""
             },
             "require": {
@@ -128,7 +128,6 @@
                     "Davaxi\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -146,7 +145,11 @@
                 "picture",
                 "sparkline"
             ],
-            "time": "2017-09-08T11:25:50+00:00"
+            "support": {
+                "issues": "https://github.com/davaxi/Sparkline/issues",
+                "source": "https://github.com/davaxi/Sparkline/releases"
+            },
+            "time": "2017-11-11T20:36:51+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -2999,6 +3002,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "davaxi/sparkline": 20,
         "facebook/xhprof": 20
     },
     "prefer-stable": false,
