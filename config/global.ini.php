@@ -353,7 +353,7 @@ login_cookie_name = piwik_auth
 login_cookie_expire = 1209600
 
 ; The path on the server in which the cookie will be available on.
-; Defaults to empty. See spec in http://curl.haxx.se/rfc/cookie_spec.html
+; Defaults to empty. See spec in https://curl.haxx.se/rfc/cookie_spec.html
 login_cookie_path =
 
 ; email address that appears as a Sender in the password recovery email
@@ -448,6 +448,10 @@ live_widget_refresh_after_seconds = 5
 ; the widget looks in.
 live_widget_visitor_count_last_minutes = 3
 
+; by default visitor profile will show aggregated information for the last up to 100 visits of a visitor
+; this limit can be adjusted by changing this value
+live_visitor_profile_max_visits_to_aggregate = 100
+
 ; In "All Websites" dashboard, when looking at today's reports (or a date range including today),
 ; the page will automatically refresh every 5 minutes. Set to 0 to disable automatic refresh
 multisites_refresh_after_seconds = 300
@@ -500,7 +504,7 @@ enable_trusted_host_check = 1
 ;trusted_hosts[] = stats.example.com
 
 ; List of Cross-origin resource sharing domains (eg domain or subdomain names) when generating absolute URLs.
-; Described here: http://en.wikipedia.org/wiki/Cross-origin_resource_sharing
+; Described here: https://en.wikipedia.org/wiki/Cross-origin_resource_sharing
 ;
 ; Examples:
 ;cors_domains[] = http://example.com
@@ -627,7 +631,7 @@ debug = 0
 ; see the log output as well.
 debug_on_demand = 0
 
-; This setting is described in this FAQ: http://piwik.org/faq/how-to/faq_175/
+; This setting is described in this FAQ: https://piwik.org/faq/how-to/faq_175/
 ; Note: generally this should only be set to 1 in an intranet setting, where most users have the same configuration (browsers, OS)
 ; and the same IP. If left to 0 in this setting, all visitors will be counted as one single visitor.
 trust_visitors_cookies = 0
@@ -641,7 +645,7 @@ cookie_name = _pk_uid
 cookie_expire = 33955200;
 
 ; The path on the server in which the cookie will be available on.
-; Defaults to empty. See spec in http://curl.haxx.se/rfc/cookie_spec.html
+; Defaults to empty. See spec in https://curl.haxx.se/rfc/cookie_spec.html
 ; This is used for the Ignore cookie, and the third party cookie if use_third_party_id_cookie = 1
 cookie_path =
 

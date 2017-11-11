@@ -2342,13 +2342,26 @@
 	</lastVisit>
 	<visitsAggregated>20</visitsAggregated>
 	<visitedPages>
-		<row key="http://example.org/my/dir/page0">8</row>
-		<row key="http://example.org/my/dir/page1">8</row>
-		<row key="http://example.org/my/dir/page2">8</row>
-		<row key="http://example.org/my/dir/page3">7</row>
+		<row>
+			<url>http://example.org/my/dir/page0</url>
+			<count>8</count>
+		</row>
+		<row>
+			<url>http://example.org/my/dir/page1</url>
+			<count>8</count>
+		</row>
+		<row>
+			<url>http://example.org/my/dir/page2</url>
+			<count>8</count>
+		</row>
+		<row>
+			<url>http://example.org/my/dir/page3</url>
+			<count>7</count>
+		</row>
 	</visitedPages>
 	<devices>
-		<Unknown>
+		<row>
+			<type>Unknown</type>
 			<count>30</count>
 			<icon>plugins/Morpheus/icons/dist/devices/unknown.png</icon>
 			<devices>
@@ -2357,8 +2370,9 @@
 					<count>30</count>
 				</row>
 			</devices>
-		</Unknown>
-		<Desktop>
+		</row>
+		<row>
+			<type>Desktop</type>
 			<count>1</count>
 			<icon>plugins/Morpheus/icons/dist/devices/desktop.png</icon>
 			<devices>
@@ -2367,7 +2381,7 @@
 					<count>1</count>
 				</row>
 			</devices>
-		</Desktop>
+		</row>
 	</devices>
 	<continents>
 		<row>
