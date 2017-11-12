@@ -105,12 +105,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Findus23/Sparkline.git",
-                "reference": "ff9fb8b66e3d128b9e622433c7eba2a82f877d86"
+                "reference": "b84aa581b3ef8e7cefb0cc8357c1484ed5988df8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Findus23/Sparkline/zipball/ff9fb8b66e3d128b9e622433c7eba2a82f877d86",
-                "reference": "ff9fb8b66e3d128b9e622433c7eba2a82f877d86",
+                "url": "https://api.github.com/repos/Findus23/Sparkline/zipball/b84aa581b3ef8e7cefb0cc8357c1484ed5988df8",
+                "reference": "b84aa581b3ef8e7cefb0cc8357c1484ed5988df8",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +149,7 @@
                 "issues": "https://github.com/davaxi/Sparkline/issues",
                 "source": "https://github.com/davaxi/Sparkline/releases"
             },
-            "time": "2017-11-11T20:36:51+00:00"
+            "time": "2017-11-12T11:46:31+00:00"
         },
         {
             "name": "doctrine/cache",
