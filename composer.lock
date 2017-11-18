@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "5fc8f3af0092ebfc25d4c17019ce8bab",
+    "content-hash": "f1bf5676302f1d1cdb2b8c6677e33197",
     "packages": [
         {
             "name": "composer/semver",
@@ -101,16 +101,16 @@
         },
         {
             "name": "davaxi/sparkline",
-            "version": "dev-master",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/Findus23/Sparkline.git",
-                "reference": "b84aa581b3ef8e7cefb0cc8357c1484ed5988df8"
+                "url": "https://github.com/davaxi/Sparkline.git",
+                "reference": "2d403a9d226e3c9eea620167065a8e9b9956561e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Findus23/Sparkline/zipball/b84aa581b3ef8e7cefb0cc8357c1484ed5988df8",
-                "reference": "b84aa581b3ef8e7cefb0cc8357c1484ed5988df8",
+                "url": "https://api.github.com/repos/davaxi/Sparkline/zipball/2d403a9d226e3c9eea620167065a8e9b9956561e",
+                "reference": "2d403a9d226e3c9eea620167065a8e9b9956561e",
                 "shasum": ""
             },
             "require": {
@@ -120,7 +120,15 @@
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "ext-gd": "*",
-                "php": ">=5.3.0"
+                "friendsofphp/php-cs-fixer": "^2.8",
+                "jakub-onderka/php-parallel-lint": "^0.9.2",
+                "php": ">=5.3.0",
+                "phpro/grumphp": "^0.12.0",
+                "povils/phpmnd": "^1.1",
+                "sebastian/phpcpd": "^3.0",
+                "sensiolabs/security-checker": "^4.1",
+                "squizlabs/php_codesniffer": "^3.1",
+                "wearejust/grumphp-extra-tasks": "^2.1"
             },
             "type": "library",
             "autoload": {
@@ -128,6 +136,7 @@
                     "Davaxi\\": "src/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -145,11 +154,7 @@
                 "picture",
                 "sparkline"
             ],
-            "support": {
-                "issues": "https://github.com/davaxi/Sparkline/issues",
-                "source": "https://github.com/davaxi/Sparkline/releases"
-            },
-            "time": "2017-11-12T11:46:31+00:00"
+            "time": "2017-11-16T09:37:53+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -3002,7 +3007,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "davaxi/sparkline": 20,
         "facebook/xhprof": 20
     },
     "prefer-stable": false,
