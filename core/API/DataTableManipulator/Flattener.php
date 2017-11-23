@@ -117,11 +117,11 @@ class Flattener extends DataTableManipulator
             $label = $labelPrefix . $label;
             $row->setColumn('label', $label);
 
-            if ($row->hasColumn($dimensionName)) {
-                $origLabel = $row->getColumn($dimensionName) . $this->recursiveLabelSeparator . $origLabel;
+            if ($row->getMetadata($dimensionName)) {
+                $origLabel = $row->getMetadata($dimensionName) . $this->recursiveLabelSeparator . $origLabel;
             }
 
-            $row->setColumn($dimensionName, $origLabel);
+            $row->setMetadata($dimensionName, $origLabel);
         }
 
         $logo = $row->getMetadata('logo');
@@ -160,7 +160,7 @@ class Flattener extends DataTableManipulator
 
             if ($origLabel !== false) {
                 foreach ($subTable->getRows() as $subRow) {
-                    $subRow->setColumn($dimensionName, $origLabel);
+                    $subRow->setMetadata($dimensionName, $origLabel);
                 }
             }
 
