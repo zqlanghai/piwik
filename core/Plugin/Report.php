@@ -597,6 +597,8 @@ class Report
             $report['isSubtableReport'] = $this->isSubtableReport;
         }
 
+        $report['dimensions']           = $this->getDimensions();
+        $report['recursiveLabelSeparator'] = $this->getRecursiveLabelSeparator();
         $report['metrics']              = $this->getMetrics();
         $report['metricsDocumentation'] = $this->getMetricsDocumentation();
         $report['processedMetrics']     = $this->getProcessedMetrics();
@@ -722,6 +724,27 @@ class Report
     public function getDimension()
     {
         return $this->dimension;
+    }
+
+    /**
+     * @return array [dimensionId => dimensionName]
+     * @ignore
+     */
+    public function getDimensions()
+    {
+        $dimensions = [];
+
+        if (!empty($this->getDimension())) {
+            $dimensionId = str_replace('.', '_', $this->getDimension()->getId());
+            $dimensions[$dimensionId] = $this->getDimension()->getName();
+        }
+
+        if (!empty($this->getSubtableDimension())) {
+            $subDimensionId = str_replace('.', '_', $this->getSubtableDimension()->getId());
+            $dimensions[$subDimensionId] = $this->getSubtableDimension()->getName();
+        }
+
+        return $dimensions;
     }
 
     /**

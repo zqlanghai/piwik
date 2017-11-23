@@ -423,12 +423,14 @@ class ProcessedReport
      */
     private function handleTableReport($idSite, $dataTable, &$reportMetadata, $showRawMetrics = false, $formatMetrics = null)
     {
-        $hasDimension = isset($reportMetadata['dimension']);
+        $hasDimension = isset($reportMetadata['dimensions']);
         $columns = @$reportMetadata['metrics'] ?: array();
 
         if ($hasDimension) {
+
             $columns = array_merge(
-                array('label' => $reportMetadata['dimension']),
+                array('label' => implode($reportMetadata['recursiveLabelSeparator'], $reportMetadata['dimensions'])),
+                $reportMetadata['dimensions'],
                 $columns
             );
         }
